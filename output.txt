@@ -1,0 +1,211 @@
+
+Debug Info:
+userInput[0]: (
+isBalanced: 1
+StackData: 
+isSymbol: 1
+Push: (
+
+Debug Info:
+userInput[1]:  
+isBalanced: 1
+StackData: ( 
+
+Debug Info:
+userInput[2]: (
+isBalanced: 1
+StackData: ( 
+isSymbol: 1
+Push: (
+
+Debug Info:
+userInput[3]:  
+isBalanced: 1
+StackData: ( ( 
+
+Debug Info:
+userInput[4]: a
+isBalanced: 1
+StackData: ( ( 
+
+Debug Info:
+userInput[5]:  
+isBalanced: 1
+StackData: ( ( 
+
+Debug Info:
+userInput[6]: a
+isBalanced: 1
+StackData: ( ( 
+
+Debug Info:
+userInput[7]:  
+isBalanced: 1
+StackData: ( ( 
+
+Debug Info:
+userInput[8]: )
+isBalanced: 1
+StackData: ( ( 
+isSymbol: 1
+Pop: )
+
+Debug Info:
+userInput[9]:  
+isBalanced: 1
+StackData: ( 
+
+Debug Info:
+userInput[10]: <
+isBalanced: 1
+StackData: ( 
+isSymbol: 1
+Push: <
+
+Debug Info:
+userInput[11]:  
+isBalanced: 1
+StackData: ( < 
+
+Debug Info:
+userInput[12]: >
+isBalanced: 1
+StackData: ( < 
+isSymbol: 1
+Pop: >
+
+Debug Info:
+userInput[13]:  
+isBalanced: 1
+StackData: ( 
+
+Debug Info:
+userInput[14]: [
+isBalanced: 1
+StackData: ( 
+isSymbol: 1
+Push: [
+
+Debug Info:
+userInput[15]:  
+isBalanced: 1
+StackData: ( [ 
+
+Debug Info:
+userInput[16]: [
+isBalanced: 1
+StackData: ( [ 
+isSymbol: 1
+Push: [
+
+Debug Info:
+userInput[17]:  
+isBalanced: 1
+StackData: ( [ [ 
+
+Debug Info:
+userInput[18]: [
+isBalanced: 1
+StackData: ( [ [ 
+isSymbol: 1
+Push: [
+
+Debug Info:
+userInput[19]:  
+isBalanced: 1
+StackData: ( [ [ [ 
+
+Debug Info:
+userInput[20]: {
+isBalanced: 1
+StackData: ( [ [ [ 
+isSymbol: 1
+Push: {
+
+Debug Info:
+userInput[21]:  
+isBalanced: 1
+StackData: ( [ [ [ { 
+
+Debug Info:
+userInput[22]: [
+isBalanced: 1
+StackData: ( [ [ [ { 
+isSymbol: 1
+Push: [
+
+Debug Info:
+userInput[23]:  
+isBalanced: 1
+StackData: ( [ [ [ { [ 
+
+Debug Info:
+userInput[24]: x
+isBalanced: 1
+StackData: ( [ [ [ { [ 
+
+Debug Info:
+userInput[25]:  
+isBalanced: 1
+StackData: ( [ [ [ { [ 
+
+Debug Info:
+userInput[26]: ]
+isBalanced: 1
+StackData: ( [ [ [ { [ 
+isSymbol: 1
+Pop: ]
+
+Debug Info:
+userInput[27]:  
+isBalanced: 1
+StackData: ( [ [ [ { 
+
+Debug Info:
+userInput[28]: }
+isBalanced: 1
+StackData: ( [ [ [ { 
+isSymbol: 1
+Pop: }
+
+Debug Info:
+userInput[29]:  
+isBalanced: 1
+StackData: ( [ [ [ 
+
+Debug Info:
+userInput[30]: ]
+isBalanced: 1
+StackData: ( [ [ [ 
+isSymbol: 1
+Pop: ]
+
+Debug Info:
+userInput[31]: ]
+isBalanced: 1
+StackData: ( [ [ 
+isSymbol: 1
+Pop: ]
+
+Debug Info:
+userInput[32]: ]
+isBalanced: 1
+StackData: ( [ 
+isSymbol: 1
+Pop: ]
+
+Debug Info:
+userInput[33]: q
+isBalanced: 1
+StackData: ( 
+
+Final Debug Info:
+userInput[33]: q
+isBalanced: 1
+top(inputStack): (
+isEmpty(inputStack): 0
+isOpenSymbol(top(inputStack)): 1
+toQuit: 1
+StackData: ( 
+                                 ^ missing >
+

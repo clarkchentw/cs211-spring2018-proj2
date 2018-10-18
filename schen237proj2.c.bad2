@@ -1,0 +1,90 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+typedef struct checkerStackStruct
+{
+	char symbol;
+	bool hasNext;
+	struct checkerStackStruct * nextStack;
+	bool hasLast;
+	struct checkerStackStruct * lastStack;
+} checkerStack;
+
+void printStackSymbol(checkerStack* currentStack){
+	printf("%c", currentStack->symbol);
+	if (currentStack->hasNext){
+		printStackSymbol(currentStack->nextStack);
+	}
+}
+
+// Return 0: No Match, 1: {[(<, 3: }])>
+int checkExist(char inputChar){
+        if (inputChar == '{' && inputChar == '[' && inputChar == '(' && inputChar == '<'){
+                return 1;
+        }
+        else if (inputChar == '}' && inputChar == ']' && inputChar == ')' && inputChar == '>'){
+                return 2;
+        }
+        else{   
+                return 0;
+        }
+}
+
+int checkType(char inputChar){
+	if (inputChar == '{' || inputChar == '}'){
+		return 1;
+	}else if (inputChar == '[' || inputChar == ']'){
+		return 2;
+	}else if (inputChar == '(' || inputChar == ')'){
+                return 3;
+        }else if (inputChar == '<' || inputChar == '>'){
+                return 4;
+        }
+}
+
+bool ifMatch(char open, char end){
+	if (checkType(open) == checkType(end) && checkExist(open) != checkExist(close)){
+		return true;
+	}else
+	{
+		return false;
+	}
+}
+
+char symbolCheck(){
+	char userInput;
+	scanf("%c", &userInput);
+	if (userInput != 'q' && userInput != 'Q'){
+		symbolCheck();
+	}
+}
+
+int main(){
+/*
+	char userInput;
+	bool syntaxSuccess = true;
+	checkerStack* firstStack;
+	firstStack = (checkerStack*) malloc(sizeof(checkerStack));
+	firstStack->hasLast = false;
+	checkerStack* lastStack;
+	checkerStack* newStack;
+	lastStack = firstStack;
+	scanf("%c", &userInput);
+	while(userInput != 'q' && userInput != 'Q')
+	{
+		newStack = (checkerStack*) malloc(sizeof(checkerStack));
+		newStack->hasLast = true;
+		newStack->lastStack = lastStack;
+		lastStack->nextStack = newStack;
+		lastStack->hasNext = true;
+		lastStack = newStack;
+		lastStack->symbol = userInput;
+		lastStack->hasNext = false;
+		scanf("%c", &userInput);
+	}
+	printStackSymbol(firstStack);	
+*/
+symbolCheck();
+	return 0;
+}
